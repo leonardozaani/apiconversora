@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Conversor de Moedas</h1>
+    <div id="converter">
+        <input type="number" id="amount" placeholder="Valor">
+        <select id="from-currency">
+            <option value="USD">Dólar dos EUA (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="BRL">REAL (BRL)</option>
+            <!-- Adicione outras moedas conforme necessário -->
+        </select>
+        <span>para</span>
+        <select id="to-currency">
+            <option value="USD">Dólar dos EUA (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="BRA">REAL (BRL)</option>
+            <!-- Adicione outras moedas conforme necessário -->
+        </select>
+        <button id="convert">Converter</button>
+    </div>
+    <div id="result">
+        <!-- O resultado da conversão será exibido aqui -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
